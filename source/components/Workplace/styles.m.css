@@ -1,0 +1,46 @@
+.workplace {
+    display: flex;
+    color: var(--paletteColor2);
+    margin-bottom: 22px;
+
+    & .leftColumn {
+        display: flex;
+        flex-direction: column;
+        width: 475px;
+
+        & .period {
+            color: var(--paletteColor4);
+            font-size: 14px;
+            line-height: 19px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        & .position {
+            font-size: 20px;
+            line-height: 27px;
+            font-weight: 400;
+        }
+    }
+
+    & .rightColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        & .location {
+            color: var(--paletteColor3);
+            font-size: 14px;
+            line-height: 19px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        & .company {
+            font-size: 20px;
+            line-height: 27px;
+            font-weight: 400;
+        }
+    }
+}

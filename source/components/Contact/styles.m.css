@@ -1,0 +1,19 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: var(--paletteColor2);
+
+    & .action {
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    & .address {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}

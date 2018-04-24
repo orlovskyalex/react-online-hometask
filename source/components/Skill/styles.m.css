@@ -1,0 +1,27 @@
+.skill {
+    margin-bottom: 33px;
+
+    & span {
+        display: inline-block;
+        color: var(--paletteColor2);
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+
+    & ul {
+        display: flex;
+
+        & li {
+            width: 10px;
+            height: 10px;
+            background-color: var(--paletteColor2);
+            border-radius: 50%;
+            margin-right: 7px;
+        }
+
+        & .inactive {
+            background-color: var(--paletteColor3);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.education {
+    & .copyright {
+        display: inline-block;
+        color: var(--paletteColor3);
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 500;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+}

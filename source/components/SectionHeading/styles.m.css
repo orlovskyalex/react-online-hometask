@@ -1,0 +1,19 @@
+.sectionHeading {
+    & h1 {
+        margin-bottom: 30px;
+        min-width: 250px;
+
+        & .sectionNumber {
+            color: var(--paletteColor3);
+            font-size: 20px;
+            font-weight: 800;
+            margin-right: 10px;
+        }
+
+        & .sectionName {
+            color: var(--paletteColor2);
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+}
